@@ -1,0 +1,3 @@
+1. Madan asking pooja -> Distinct substrings (SOLVED) recursion as well
+2. Mayank asking Madan -> Merge Sort (SOLVED)
+3. Pooja asking Mayank -> Search Numbers (SOLVED)

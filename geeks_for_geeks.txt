@@ -1,0 +1,20 @@
+ARRAY
+https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+
+Level 2
+1. Write a program to cyclically rotate an array by one // done
+2. Find the missing integer // done
+3. Count Pairs with given sum // time limit exceeded
+4. Find Duplicates in the array // done
+5. Sort an Array using Quicksort algorithm // skipped because I didn't learn
+6. Find common elements in three sorted arrays // skipped 
+7. Find the first repeating element in an array of integers // done
+8. Find the first non-repeating element in a given array of integers // skipped
+9. Subarrays with equal 1s and 0s // skipped
+10.Rearrange the array in alternating positive and negative items 
+
+STRINGS
+https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
+
+Level1
+1. Longest Common Prefix

@@ -1,0 +1,40 @@
+COMPLETED - https://oj.masaischool.com/contest/2634/problems (ARRAYS AND STRINGS | 23-12-2021)
+1. Check Palindrome //done
+2. Count Chars //done
+3. Encrypt It //done
+4. Three Max, Three Min Please //done
+5. Battle of Odd and Even //done
+
+COMPLETED - https://oj.masaischool.com/contest/2641/problems (MAPS AND OBJECTS | 24-12-2021)
+1. Alan and Frequency //done
+2. Answer Queries //done
+3. Check duplicate //done
+4. Anagram Pairs //done 
+5. An Anagram Problem //done
+6. Such Pair Returns //done
+
+https://oj.masaischool.com/contest/2659/problems (STACKS & QUEUE | 28-12-2021)
+1. Infix to Postfix
+2. Use Side Lane // done
+3. Strings with Parenthesis // done
+4. Next Greater Element // done
+5. Alan & Christopher // done
+6. Can you find the sum //done
+7. Detect Palindrome 2 // done
+
+https://oj.masaischool.com/contest/2690/problems (DP 29-12-2021)
+1. The question with immense practical application
+2. DpNation - is it a subsequence // done
+3. DpNation - Robbing House 1 // done
+4. Unique ways of Coin Change // done
+5. Word Break
+
+https://oj.masaischool.com/contest/2695/problems (DP 30-12-2021)
+
+https://oj.masaischool.com/contest/2707/problems (Sorting 31-12-2021)
+1. Merge Sorting // done
+2. Quickly Sort it
+3. Bubble Sort Problem // done
+4. Selection Sort Problem // done
+5. Opp Quick Sort
+6. Count inversions(Using Merge Sort) // done
