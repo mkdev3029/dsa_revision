@@ -1,0 +1,71 @@
+https://oj.masaischool.com/contest/2078/problems
+1. Linked List Cycle
+2. Rotate Linked List
+3. Reverse the Linked List
+
+https://oj.masaischool.com/contest/2084/problems
+1. Palindrome List
+2. Linked List Cycle
+3. Delete node without head
+4. Merge two linked list
+
+https://oj.masaischool.com/contest/2096/problems
+1. Wave pattern
+2. Reverse Compare
+3. Add 1 to Linked List
+
+https://oj.masaischool.com/contest/2118/problems
+1. Factorial Recursion
+2. Fibonacci-Recursion
+3. Sum with Recursion Again
+4. Number of ways problems
+5. Follow The Knight // not done
+
+https://oj.masaischool.com/contest/2138/problems
+1. Length & Recursion
+2. Easy but Recursion
+3. Nick and Hacks
+4. EtopowerX
+5. The Famous Sum
+
+https://oj.masaischool.com/contest/2143/problems
+1. Make It Unique
+2. Bob and Boxes
+3. GP & Recursion
+
+https://oj.masaischool.com/contest/2183/problems
+1. Generate all subsequence
+2. Generate all Permutations
+3. Solve it, Provide GUI, Put on resume
+4. Power Function - Recursive
+5. N Queens Variant
+
+https://oj.masaischool.com/contest/2200/problems
+1. Dr. Strange and Possibilities
+2. Binary Equivalent - Recursive
+3. Sum Exists or Not
+4. Mr Robot - Elliot
+5. Beyond Factorial
+
+https://oj.masaischool.com/contest/2204/problems
+1. All Except Twice
+2. Masai Packers and movers
+3. Odd Subset
+
+https://oj.masaischool.com/contest/2232/problems
+1. Find the weird sum
+2. Dr. Strange and Possibilities 2
+3. Count With Condition
+4. Recursive Bubble Sort
+5. Masai Packers & Movers 2 // not done
+6. Perform Merging
+
+https://oj.masaischool.com/contest/2245/problems
+1. Merge Sorting
+2. Quickly Sort It
+3. Bubble Sort Problem
+
+https://oj.masaischool.com/contest/2287/problems
+1. Opp Quick Sort // not done
+2. Birthday Shopping
+3. Array Equation

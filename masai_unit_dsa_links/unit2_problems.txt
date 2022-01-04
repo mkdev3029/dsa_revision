@@ -1,0 +1,83 @@
+https://oj.masaischool.com/contest/1536/problems
+1. N Traversal
+2. 3D Array
+3. Maximum Occurring Element 
+4. A football tournament 
+5. Day of the week 
+6. Detect Palindrome 2 
+7. Z Traversal 
+8. Reverse N Traversal 
+9. Circular Traversal 
+10. Alan & Frequency
+11. ACM ICPC India Rank 
+
+https://oj.masaischool.com/contest/1560/problems
+1. Rotate the array - easy version 
+2. Chintu Candy Game 
+3. Power of 2 
+4. Make array even 
+5. Masai Airline 
+
+https://oj.masaischool.com/contest/1575/problems
+1. Sum of digits 
+2. Spirally Traversing a Matrix 
+3. Matrix Traversal & Queries 
+
+https://oj.masaischool.com/contest/1584/problems
+1. Code to introduce //1
+2. Even Sum Below N //1
+3. Sum of special pairs //1
+4. Generate all substrings //1
+5. Min Length, Substring, Distinct
+
+https://oj.masaischool.com/contest/1602/problems
+1. Masai palindromic substrings
+2. Apply Basic Maths
+3. Is it happy? 
+
+https://oj.masaischool.com/contest/1611/problems
+1. Weighted Sum
+2. Covid & Vowels
+3. Distinct substrings
+4. Cipher Substring
+5. Masai uniqueness
+
+https://oj.masaischool.com/contest/1642/problems
+1. Spirally Traversing a Matrix
+2. Diamond Traversal
+3. Matrix Competition
+
+https://oj.masaischool.com/contest/1651
+1. Check for symmetry
+2. Spiral Traversal
+3. New year and Pyramid
+4. Human Readable Time
+5. Who is going Forward?.
+
+https://oj.masaischool.com/contest/1662/problems
+1. Rotate by 90 Clockwise // See this again
+2. Subarrays problems //0
+3. Running Sum of an array. //Need to see this don't forget
+
+https://oj.masaischool.com/contest/1672/problems
+1. Compete with Neighbour //1
+2. Rotate Elements //1
+
+https://oj.masaischool.com/contest/1694
+1. Swastika & Sum //1
+2. Map Characters & Sum //1
+3. Exit the Grid //1
+
+https://oj.masaischool.com/contest/1686/problems
+1. Symmetric or Not?
+2. Motu to Potlu house
+3. Row Game
+
+COMPLETED - https://oj.masaischool.com/contest/1704/problems
+1. Sum of boundary and diagonal elements //1
+2. Good-Bad String //1
+
+https://oj.masaischool.com/contest/1724/problems
+1. Stock it up
+2. Help Elevator
+3. Alternate Palindrome

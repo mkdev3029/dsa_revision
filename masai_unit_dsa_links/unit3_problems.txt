@@ -1,0 +1,73 @@
+https://oj.masaischool.com/contest/1788/problems
+1. Two sum
+2. Detect Palindrome
+
+https://oj.masaischool.com/contest/1795/problems
+1.Subarray and Sum
+2.Count such pairs
+
+https://oj.masaischool.com/contest/1806/problems
+1.Subarray under condition
+
+https://oj.masaischool.com/contest/1832/problems
+1. Pairs less than K
+2. Take out maximum
+3. Is it palindromic
+
+https://oj.masaischool.com/contest/1840/problems
+1. Bubble sort problem
+2. Selection sort problem
+
+https://oj.masaischool.com/contest/1854/problems
+1. New sorting algorithm
+2. Make leaderboard
+
+https://oj.masaischool.com/contest/1857
+1. Push,Pop and Top
+2. Reduce String
+
+https://oj.masaischool.com/contest/1876/problems
+1. Smaller Neighbour Element
+
+https://oj.masaischool.com/contest/1882/problems
+1. Shinchan love of cities //0
+2. Sum of next smaller
+3. Three max three min please
+
+https://oj.masaischool.com/contest/1901/problems
+1. Masai Restaurant
+2. Signal's Capacity 
+
+https://oj.masaischool.com/contest/1905/problems
+1. Buy ticket
+2. New Year Celebration //0
+
+https://oj.masaischool.com/contest/1916
+1. Masai Coding Competition //0
+2. Again a classical problem
+
+https://oj.masaischool.com/contest/1926/problems
+1. Implement Queue using Stack 
+2. Implement Stack using Queue
+
+https://oj.masaischool.com/contest/1940/problems // done
+1. Ordering the process
+2. Matrix Not prime check
+3. Next greater even
+4. Next greater sum
+
+https://oj.masaischool.com/contest/1949/problems // done
+
+https://oj.masaischool.com/contest/1965
+1. Insert a node at the Tail	
+2. Deleting a Node	
+3. Insert at a specific position	
+4. Nth node from the end
+
+https://oj.masaischool.com/contest/1976/problems // done
+
+https://oj.masaischool.com/contest/1986/problems
+
+https://oj.masaischool.com/contest/1997/problems
+
+https://oj.masaischool.com/contest/2063/problems

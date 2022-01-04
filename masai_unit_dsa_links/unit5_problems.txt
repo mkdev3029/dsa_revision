@@ -1,0 +1,71 @@
+https://oj.masaischool.com/contest/2371/problems
+1. Binary Search Iterative
+2. Binary Search Recursive
+3. Discover Number
+4. Lower Bound in LogN
+5. Upper Bound in LogN
+6. Number of Occurences in LogN
+7. Optimise the curve
+8. Minimum in sorted & rotated array
+9. Search in sorted and rotated array
+
+https://oj.masaischool.com/contest/2387/problems
+1. Nikhil and Search
+2. Shop Soap
+3. Masai Uniqueness
+4. Coding Club
+
+https://oj.masaischool.com/contest/2409/problems
+1. Everything related to Binary Search
+2. Such Six Numbers // not done
+3. Party or Not
+4. Dance Night!
+5. Love of Samosa
+
+https://oj.masaischool.com/contest/2429/problems
+1. Neelam's Journey
+2. Manage Forum Mall Parking
+3. Maximum Sum & Permutation
+4. Manage Stack of Bricks
+
+https://oj.masaischool.com/contest/2444/problems
+1. Kazama and Shinchan
+2. Angry People
+3. Count Digits
+
+https://oj.masaischool.com/contest/2463/problems
+1. Hostel & Warden
+2. Steal as much as you can
+3. Similar Texts - V0
+4. Again an optimization problem - V0
+5. Sum exists or not
+
+https://oj.masaischool.com/contest/2480/problems
+1. Fibonacci Return Again
+2. Number of ways return back
+3. Height of trees
+4. Masai Monetary System
+5. Kormanalga to BTM
+
+https://oj.masaischool.com/contest/2495/problems
+1. Lifting Fingers
+2. Life of a CTO
+3. Different ways as a sum
+
+https://oj.masaischool.com/contest/2512/problems
+1. Even count Returns
+2. 91 springboard
+3. Again an optimization problem
+4. Similar texts
+
+https://oj.masaischool.com/contest/2547/problems
+1. Spiderman in Patna!
+2. Lifting Fingers
+3. Qualifying Candidates
+
+https://oj.masaischool.com/contest/2603/problems
+1. Problem Of Plagarism
+2. Search Numbers
+3. Minimize The Integers
+4. Bettys Buys A Present 2
+5. Language of Masai 11

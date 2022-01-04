@@ -38,3 +38,12 @@ https://oj.masaischool.com/contest/2707/problems (Sorting 31-12-2021)
 4. Selection Sort Problem // done
 5. Opp Quick Sort
 6. Count inversions(Using Merge Sort) // done
+
+https://oj.masaischool.com/contest/2731/problems (TWO POINTERS SLIDING WINDOW 4-01-2022)
+1. Sum of subarray
+2. Abandoned city
+3. Substrings with K distinct letters
+4. Gifts
+5. Two Sorted Arrays
+6. Number of Segments with Good Sum
+7. Sum of Subarray

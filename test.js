@@ -119,8 +119,64 @@
 //   }, 1000);
 // }
 
-if (!0) {
-  console.log(1);
-} else {
-  console.log("0");
-}
+// if (!0) {
+//   console.log(1);
+// } else {
+//   console.log("0");
+// }
+
+// Time complexity for accessing a data will O(1) Key:value (Hash Map)
+
+// var person = {};
+
+// ADD some key and a value
+
+// person.name = "madan"; // dot notation
+// person.name = "rahul"; // dot notation
+// person["name"] = "madan"; // square bracket notation
+
+// console.log(person["job"]);
+
+// var arr = [1, 1, 1, 5, 5, 6, 7, 8, 9, 10, 6, -1, -9, 0];
+// var arr = "abcedalkfdlkhjgfsdlkjghsd";
+
+// loop through the array find the count and print the number
+
+// var obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (!obj[arr[i]]) {
+// !false true // this is first time tha we are seeing this
+//     obj[arr[i]] = 1;
+//   } else {
+//     obj[arr[i]] = obj[arr[i]] + 1;
+//   }
+// }
+
+// console.log(obj);
+
+// var arr = Object.keys(obj);
+// var values = Object.values(obj);
+
+// console.log(arr[0], values[0]);
+
+// TRUTHY AND FALSY values
+
+// if (undefined) {
+//   console.log("if");
+// } else {
+//   console.log("else");
+// }
+
+// If it is not present add arr[i] as key and the value as 1
+// If key is present increment the value of that key by 1
+
+// var arr1 = [1, 2, 2, 3, 4, 5];
+// var arr2 = [4, 4, 3, 2, 1, 1];
+
+// console.log(obj1, obj2);
+
+// var res = [];
+// var count = 0;
+
+// console.log(res.join(" "));

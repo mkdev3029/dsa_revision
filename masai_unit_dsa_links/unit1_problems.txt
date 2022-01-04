@@ -1,0 +1,108 @@
+COMPLETED - https://oj.masaischool.com/contest/1430/problems
+1.Count such pairs
+2.Intersection of Array
+
+COMPLETED - https://oj.masaischool.com/contest/1220/problems
+1. Infinity stones
+2. Sum of natural numbers 
+3. Product of six
+4. Print Grade
+5. Easy Wood Cutter
+6. Masai Even or Odd
+
+COMPLETED - https://oj.masaischool.com/contest/1222/problems
+1. Number of working days
+2. Evaluate the Expression
+3. Cube of a number
+4. Apply Brakes
+5. Maximum of three
+6. Day of the Week
+7. Enough Fuel Consumption
+
+COMPLETED - https://oj.masaischool.com/contest/1244/problems
+1. Odd Sum Below N
+2. Multiplication Table of N
+3. Loop it twice
+4. Factorial-Iterative
+5. Masai Divisors
+6. Average-of-all
+
+COMPLETED - https://oj.masaischool.com/contest/1253/problems
+1. How much is the earning? RE-VISIT
+2. Noddy's examination RE-VISIT
+3. Good-Bad String
+4. Print table
+
+COMPLETED - https://oj.masaischool.com/contest/1273/problems
+1. Right Triangle
+2. Simple Calculator
+3. Square Multiple
+4. Square Pattern
+5. Missing Integer
+6. Sum and Conditions
+
+COMPLETED - https://oj.masaischool.com/contest/1293/problems
+1. Matrix Add
+
+COMPLETED - https://oj.masaischool.com/contest/1252/problems
+1. First Bigger
+2. String Cutter
+3. String Check
+
+COMPLETED - https://oj.masaischool.com/contest/1291/problems
+1. Perfect Score
+2. Runs Required in last over
+3. War of numbers
+4. Split in Half
+5. Greater Ahead
+6. Difference Array
+7. Pattern Printing I
+8. Separation of Vowels & Consonants
+9. Find & Solve
+
+COMPLETED - https://oj.masaischool.com/contest/1325/problems
+1. Sum Related problem
+2. Masai School Hurray
+3. Division Task
+4. Units Consumed - REVISIT
+5. Breaking a record
+6. World Cup Final
+7. Range of 2
+8. Equal to 42 or not!
+9. Smallest and Largest of all
+
+COMPLETED - https://oj.masaischool.com/contest/1391/problems
+1. Battle of Odd & Even
+2. Compete with Neighbour
+3. Decompress the String
+4. Identify Prime
+5. Masai Palindromic Substring
+6. Sum of special pairs
+7. Longest Increasing Subarray
+8. Catch that 420!
+9. Count Consonants
+10. Masai sentence reversal
+11. Detect Palindrome
+12. String value! - REVISIT
+13. Anagram Detector - REVISIT
+14. Substring under condition
+
+COMPLETED - https://oj.masaischool.com/contest/1361/problems
+1. World Test Championship // done
+2. Feel Good Strings // done
+3. Beach Fun // done
+4. Birthday Chocolates Shopping // seen
+5. Social Networking for Everyone // done
+6. Tom & Jerry // done
+7. Money Management // seen
+8. Even Array Traversal // done
+9. Odd Array Traversal // seen 
+10. Even Array Traversal Modified
+11. Decode the message // seen
+12. Longest Repeated Odd // done 
+13. V
+14. Pattern of W
+
+Objects Problems
+Matrix Problems
+Array HOF
