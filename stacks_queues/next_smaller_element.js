@@ -17,7 +17,7 @@ for (let i = arr.length - 1; i >= 0; i--) {
     // sum += stack[stack.length - 1];
   } else {
     res.push(-1);
-  }
+}
   stack.push(arr[i]);
 }
 

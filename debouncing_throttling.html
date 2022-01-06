@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debouncing</title>
+  </head>
+  <body>
+    <center>
+      <h1 id="header"></h1>
+      <button id="click">CLICK ME</button>
+    </center>
+  </body>
+</html>
+<script>
+  const makeApiCall = () => {
+    console.log("api call in progess");
+  };
+
+  //-------------Debouncing Code-------------//
+  // const debouncer = (func, delay) => {
+  //     // Should remember if the call is called
+  //     let debouncing;
+  //     return function () {
+  //         debouncing && clearTimeout(debouncing)
+  //         debouncing = setTimeout(() => func.apply(this, arguments), delay)
+  //     }
+  // }
+  // window.addEventListener("load", function () {
+  //     var btn = document.getElementById("click");
+  //     btn.addEventListener('click', debouncer(makeApiCall, 1000))
+  // })
+  //----------------------------------------//
+
+  //-------------Throttling Code-------------//
+  function throttle(fn, wait) {
+    let lastCall = 0;
+    return function () {
+      if (Date.now() - lastCall > wait) {
+        lastCall = Date.now();
+        fn.apply(this, arguments);
+      }
+    };
+  }
+  //----------------------------------------//
+  window.addEventListener("load", function () {
+    var btn = document.getElementById("click");
+    btn.addEventListener("click", throttle(makeApiCall, 1000));
+  });
+</script>

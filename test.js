@@ -180,3 +180,214 @@
 // var count = 0;
 
 // console.log(res.join(" "));
+
+// var arr = [1, 2, 3, 4, 5];
+
+// console.log(
+//   arr.filter((el) => false),
+//   Array.isArray(arr)
+// );
+
+// console.log(arr);
+
+// var num = 123; // 321
+// 123 321
+// 100 + 20 + 3
+// 300 + 20 + 1
+
+// hundreds, tens, ones
+
+// var num = 123; // 321 // 300 + 20 + 1
+// var num = 1000; // 321 // 300 + 20 + 1
+// 100 + 20 + 3
+// hint2 modulo
+// var res = "";
+
+// Reverse this number with arithemtic operation
+
+// while (num > 0) {
+// res = res * 10 + (num % 10);
+//   res += num % 10;
+//   num = Math.floor(num / 10);
+// }
+
+// console.log(res);
+
+// Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+
+// Notice that the solution set must not contain duplicate triplets.
+
+// Example 1:
+
+// Input: nums = [-1,0,1,2,-1,-4]
+// Output: [[-1,-1,2],[-1,0,1]]
+// Example 2:
+
+// Input: nums = []
+// Output: []
+// Example 3:
+
+// Input: nums = [0]
+// Output: []
+
+// Constraints:
+
+// 0 <= nums.length <= 3000
+// -105 <= nums[i] <= 105
+
+// var arr = [-1, 0, 1, 2, -1, -4];
+// var res = [];
+
+// var obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i + 1; j < arr.length; j++) {
+//     for (let k = j + 1; k < arr.length; k++) {
+//       if (i !== j && i !== k && j !== k && arr[i] + arr[j] + arr[k] == 0) {
+//         var ans = [arr[i], arr[j], arr[k]]
+//           .sort((a, b) => {
+//             return a - b;
+//           })
+//           .join("");
+//         if (!obj[ans]) {
+//           obj[ans] = 1;
+//         } else {
+//           obj[ans] = obj[ans] + 1;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// var result = Object.keys(obj);
+// console.log(result);
+
+// console.log("start");
+// function myPromise() {
+//   return new Promise((res, rej) => {
+//     console.log("thakur");
+//     const value = true;
+//     setTimeout(() => {
+//       console.log("hello");
+//       if (value) {
+//         res();
+//       } else {
+//         rej();
+//       }
+//     }, 2000);
+//   });
+// }
+
+// myPromise()
+//   .then(() => {
+//     console.log("Resolved");
+//   })
+//   .catch(() => {
+//     console.log("Rejected");
+//   });
+
+// console.log("end");
+// start thakur end hello resolved
+
+// const promise = new Promise((res, rej) => {
+//   if (true) {
+//     res(1);
+//   }
+// });
+
+// console.log(promise);
+
+// promise.then(() => {
+//   console.log("resolved");
+// });
+
+// console.log("hello");
+
+// Promise hello resolved
+
+// chooseToppings((toppings) => {
+//   placeOrder(
+//     toppings,
+//     (order) => {
+//       collectOrder(
+//         order,
+//         (pizza) => {
+//           eatPizza(pizza);
+//         },
+//         failureCallback
+//       );
+//     },
+//     failureCallback
+//   );
+// }, failureCallback);
+
+var arr = [39, 27, 11, 4, 24, 32, 32, 1];
+var stack = [];
+var res = [];
+
+// arr[i] > stack[stack.length - 1]
+// stack.push(arr[i])
+// res.push(arr[i])
+
+// arr[i] <= stack[stack.length - 1]
+// stack.pop()
+
+for (let i = 0; i < arr.length; i++) {
+  while (stack.length && arr[i] >= stack[stack.length - 1]) {
+    stack.pop();
+  }
+  if (stack.length) {
+    res.push(stack[stack.length - 1]);
+  } else {
+    res.push(-1);
+  }
+  stack.push(arr[i]);
+}
+
+console.log(res.join(" ")); // left
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   while (stack.length && arr[i] >= stack[stack.length - 1]) {
+//     stack.pop();
+//   }
+//   if (stack.length) {
+//     res.push(stack[stack.length - 1]);
+//   } else {
+//     res.push(-1);
+//   }
+//   stack.push(arr[i]);
+// }
+
+// console.log(res.reverse().join(" ")) // right
+
+// Next Greater Element (right)
+// Next Greater Element (left)
+
+// Next Smaller Element (right)
+// Next Smaller Element (left)
+
+// var obj = {};
+
+// var arr = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 5, 6, 7];
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (!obj[arr[i]]) {
+//     obj[arr[i]] = 1;
+//   } else {
+//     obj[arr[i]] = obj[arr[i]] + 1;
+//   }
+// }
+
+// console.log(obj);
+
+// var mat = [];
+
+// for (let i = 0; i < 5; i++) {
+//   mat.push([]);
+//   for (let j = 0; j < 5; j++) {
+//     mat[i][j] = i + j;
+//   }
+// }
+
+// console.log(mat);
