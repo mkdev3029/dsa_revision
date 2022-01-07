@@ -321,9 +321,9 @@
 //   );
 // }, failureCallback);
 
-var arr = [39, 27, 11, 4, 24, 32, 32, 1];
-var stack = [];
-var res = [];
+// var arr = [39, 27, 11, 4, 24, 32, 32, 1];
+// var stack = [];
+// var res = [];
 
 // arr[i] > stack[stack.length - 1]
 // stack.push(arr[i])
@@ -332,19 +332,19 @@ var res = [];
 // arr[i] <= stack[stack.length - 1]
 // stack.pop()
 
-for (let i = 0; i < arr.length; i++) {
-  while (stack.length && arr[i] >= stack[stack.length - 1]) {
-    stack.pop();
-  }
-  if (stack.length) {
-    res.push(stack[stack.length - 1]);
-  } else {
-    res.push(-1);
-  }
-  stack.push(arr[i]);
-}
+// for (let i = 0; i < arr.length; i++) {
+//   while (stack.length && arr[i] >= stack[stack.length - 1]) {
+//     stack.pop();
+//   }
+//   if (stack.length) {
+//     res.push(stack[stack.length - 1]);
+//   } else {
+//     res.push(-1);
+//   }
+//   stack.push(arr[i]);
+// }
 
-console.log(res.join(" ")); // left
+// console.log(res.join(" ")); // left
 
 // for (let i = arr.length - 1; i >= 0; i--) {
 //   while (stack.length && arr[i] >= stack[stack.length - 1]) {
@@ -391,3 +391,84 @@ console.log(res.join(" ")); // left
 // }
 
 // console.log(mat);
+
+// var str = "abc";
+
+// function printName(cb, firstName) {
+//   return `Hi, this is ${cb(firstName)}`;
+// }
+
+// function getName(firstName) {
+//   return firstName;
+// }
+
+// console.log(printName(getName, "madan"));
+
+// var printName = new Promise(function (res, rej) {
+//   var value = false;
+//   if (value) {
+//     res("madan");
+//   } else {
+//     rej("ERROR");
+//   }
+// });
+
+// console.log(printName);
+
+// printName
+//   .then((data) => {
+//     console.log(`Hi, this is ${data}`);
+//   })
+//   .catch((data) => {
+//     console.log(`${data}`);
+//   });
+
+// Callbacks cannot be asynchronous, it does not .then and .catch
+// Promise is asynchronous
+// If we don't use promises we will in callback hell
+
+// function getMoneyBack(money, callback) {
+//   if (typeof money !== "number") {
+//     // callback(null, new Error("money is not a number"));
+//     return callback("money is not a number");
+//   } else {
+//     return callback(money);
+//   }
+// }
+
+// const money = getMoneyBack(1200, handleMoney);
+// console.log(money);
+
+// function handleMoney(type) {
+//   // console.log(type);
+//   return type;
+// }
+
+// function getMoneyBack(money) {
+//   return new Promise((resolve, reject) => {
+//     if (typeof money !== "number") {
+//       reject(new Error("money is not a number"));
+//     } else {
+//       resolve(money);
+//     }
+//   });
+// }
+
+// getMoneyBack(1200).then((money) => {
+//   console.log(money);
+// });
+
+// const add = (num1, num2) => new Promise((resolve) => resolve(num1 + num2));
+
+// add(2, 4)
+//   .then((result) => {
+//     console.log(result); // result: 6
+//     return result + 10;
+//   })
+//   .then((result) => {
+//     console.log(result); // result: 16
+//     return result;
+//   })
+//   .then((result) => {
+//     console.log(result); // result: 16
+//   });

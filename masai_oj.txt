@@ -66,3 +66,18 @@ https://oj.masaischool.com/contest/2762/problems (STACKS AND QUEUES 6-01-2022)
 5. Nick and Soldiers
 6. Tallest Around
 7. Buy Ticket // done
+
+https://oj.masaischool.com/contest/2764/problems (LINKEDLIST 7-01-2022)
+1. Insert a node at the head //done
+2. Insert a node at the tail //done
+3. Insert node at a specific position //done
+4. Delete node without head //done
+5. Middle node //done
+6. Reverse the linked list //done
+7. Add two linked list //done
+8. Palindrome List //done
+9. Merge two Linked List  //done
+10. Dr. Strange and possibilities //done
+11. Generate Permutations //done
+12. Opp Quick Sort
+13. Fixing Maze
