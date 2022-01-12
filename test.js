@@ -472,3 +472,74 @@
 //   .then((result) => {
 //     console.log(result); // result: 16
 //   });
+
+// GENERATE SUBARRAY IN TWO FOR LOOPS
+
+// let arr = [1, 2, 1, 2, 3, 1];
+// var res = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let subArr = [];
+//   for (let j = i; j < arr.length; j++) {
+//     subArr.push(arr[j]);
+//     res.push(subArr.slice());
+//   }
+// }
+
+// console.log(res.join("\n"));
+
+// GENERATE SUBSTRING IN TWO FOR LOOPS
+
+// var str = "abcd";
+// var res = [];
+
+// for (let i = 0; i < str.length; i++) {
+//   var subStr = "";
+//   for (let j = i; j < str.length; j++) {
+//     subStr += str[j];
+//     res.push(subStr);
+//   }
+// }
+
+// console.log(res.join("\n"));
+
+// let a = 3;
+// let b = new Number(3);
+// let b = Number(3);
+// let c = 3;
+
+// console.log(b);
+
+// console.log(a == b);
+// console.log(a === b);
+// console.log(a === c);
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// sum(1, "2");
+
+// var arr = [1, 1, 1, 1, 1, 11, 1, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5];
+
+// var set = new Set();
+
+// for (let i = 0; i < arr.length; i++) {
+//   set.add(arr[i]);
+// }
+
+// console.log(set);
+
+// const kitchen = {
+//   order: "meal",
+//   print() {
+//     console.log(this.order);
+//   },
+// };
+
+// const bedroom = {
+//   order: "maggie",
+// };
+
+// kitchen.print();
+
+// kitchen.print.apply(bedroom);

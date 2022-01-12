@@ -29,7 +29,8 @@ function runProgram(input) {
   }
 }
 if (process.env.USER === "madandev") {
-  runProgram(`3\n5 3\n1 2 1 3 4\n4 5\n1 2 1 3\n3 2\n1 2 1`);
+  // runProgram(`3\n5 3\n1 2 1 3 4\n4 5\n1 2 1 3\n3 2\n1 2 1`);
+  runProgram(`1\n10 3\n-1 -1 -2 1 -2 4 1 9 3 9`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

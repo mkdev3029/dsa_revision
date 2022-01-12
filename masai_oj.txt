@@ -81,3 +81,33 @@ https://oj.masaischool.com/contest/2764/problems (LINKEDLIST 7-01-2022)
 11. Generate Permutations //done
 12. Opp Quick Sort
 13. Fixing Maze
+
+https://oj.masaischool.com/contest/2783/problem/01 (ASSORTED QUESTIONS 8-01-2022)
+1. National Award Ceremony //done
+2. Man of the Match //done
+3. Is it Triangle? //done
+4. Lifeboats //done
+5. Longest increasing Subarray //done
+6. Weighted Sum //done
+7. Good Pairs //done
+8. Fixing Maze 
+9. Detective L
+10. Transformation possibility?
+
+https://oj.masaischool.com/contest/2797/problems (ASSORTED QUESTIONS 10-01-2022)
+1. Implement GCD
+2. Can they be equal?.
+3. Mayfair Hotel
+4. Balanced Subarray
+5. A -> B Possible?.
+6. Lifeboats
+7. Total Matches
+
+https://oj.masaischool.com/contest/2809 (ASSORTED QUESTIONS 12-01-2022)
+1. Number of ways problem returns //done
+2. Odd subset //done
+3. The peak point //done
+4. Betty Buys A Present
+5. Take out maximum //done
+6. Such Pair Returns //done
+7. Difference of K //done

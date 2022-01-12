@@ -15,22 +15,25 @@
 </html>
 <script>
   const makeApiCall = () => {
+    console.log(arguments);
     console.log("api call in progess");
   };
 
   //-------------Debouncing Code-------------//
-  // const debouncer = (func, delay) => {
-  //     // Should remember if the call is called
-  //     let debouncing;
-  //     return function () {
-  //         debouncing && clearTimeout(debouncing)
-  //         debouncing = setTimeout(() => func.apply(this, arguments), delay)
-  //     }
-  // }
-  // window.addEventListener("load", function () {
-  //     var btn = document.getElementById("click");
-  //     btn.addEventListener('click', debouncer(makeApiCall, 1000))
-  // })
+  const debouncer = (func, delay) => {
+    // Should remember if the call is called
+    let debouncing;
+    return function () {
+      debouncing && clearTimeout(debouncing);
+      debouncing = setTimeout(() => {
+        func.apply(this, arguments);
+      }, delay);
+    };
+  };
+  window.addEventListener("load", function () {
+    var btn = document.getElementById("click");
+    btn.addEventListener("click", debouncer(makeApiCall, 1000));
+  });
   //----------------------------------------//
 
   //-------------Throttling Code-------------//
