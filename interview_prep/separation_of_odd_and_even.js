@@ -1,11 +1,3 @@
-function findPeak(arr, low, high, n) {
-  var mid = low + Math.floor((high - low) / 2);
-  if (arr[mid - 1] <= arr[mid] && arr[mid + 1] <= arr[mid]) return mid;
-  else if (mid > 0 && arr[mid - 1] > arr[mid])
-    return findPeak(arr, low, mid - 1, n);
-  else return findPeak(arr, mid + 1, high, n);
-}
-
 function runProgram(input) {
   input = input.trim().split("\n");
   var cases = +input[0];
@@ -13,12 +5,28 @@ function runProgram(input) {
   for (let k = 0; k < cases; k++) {
     var len = +input[line++];
     var arr = input[line++].trim().split(" ").map(Number);
-    console.log(findPeak(arr, 0, len - 1, len));
+    var query = +input[line++];
+    var even = [];
+    var odd = [];
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] % 2 === 0) even.push(arr[i]);
+      else odd.push(arr[i]);
+    }
+    even.sort((a, b) => {
+      return a - b;
+    });
+    odd.sort((a, b) => {
+      return a - b;
+    });
+    if (query === 1) {
+      console.log(even.join(" ") + " " + odd.join(" "));
+    } else if (query === 2) {
+      console.log(odd.join(" ") + " " + even.join(" "));
+    }
   }
 }
 if (process.env.USER === "madandev") {
-  // runProgram(`2\n3\n10 20 11\n5\n1 3 6 5 4`);
-  runProgram(`1\n5\n4 3 6 7 8`);
+  runProgram(`2\n6\n1 3 5 2 7 4\n1\n6\n1 3 5 2 7 4\n2`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

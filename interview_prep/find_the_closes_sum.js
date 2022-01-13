@@ -1,24 +1,29 @@
-function findPeak(arr, low, high, n) {
-  var mid = low + Math.floor((high - low) / 2);
-  if (arr[mid - 1] <= arr[mid] && arr[mid + 1] <= arr[mid]) return mid;
-  else if (mid > 0 && arr[mid - 1] > arr[mid])
-    return findPeak(arr, low, mid - 1, n);
-  else return findPeak(arr, mid + 1, high, n);
-}
-
 function runProgram(input) {
   input = input.trim().split("\n");
   var cases = +input[0];
   var line = 1;
   for (let k = 0; k < cases; k++) {
-    var len = +input[line++];
+    var [len, target] = input[line++].trim().split(" ").map(Number);
     var arr = input[line++].trim().split(" ").map(Number);
-    console.log(findPeak(arr, 0, len - 1, len));
+    var closestSum = Number.MAX_VALUE;
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i + 1; j < arr.length; j++) {
+        for (let k = j + 1; k < arr.length; k++) {
+          if (
+            Math.abs(target - closestSum) >
+            Math.abs(target - (arr[i] + arr[j] + arr[k]))
+          ) {
+            closestSum = arr[i] + arr[j] + arr[k];
+          }
+        }
+      }
+    }
+    console.log(closestSum);
   }
 }
 if (process.env.USER === "madandev") {
-  // runProgram(`2\n3\n10 20 11\n5\n1 3 6 5 4`);
-  runProgram(`1\n5\n4 3 6 7 8`);
+  // runProgram(`2\n4 1\n-1 2 1 -4\n3 1\n0 0 0`);
+  runProgram(`1\n6 5\n-4 1 -5 3 2 -5`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

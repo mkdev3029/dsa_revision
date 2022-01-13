@@ -103,11 +103,22 @@ https://oj.masaischool.com/contest/2797/problems (ASSORTED QUESTIONS 10-01-2022)
 6. Lifeboats
 7. Total Matches
 
-https://oj.masaischool.com/contest/2809 (ASSORTED QUESTIONS 12-01-2022)
+COMPLETED - https://oj.masaischool.com/contest/2809 (ASSORTED QUESTIONS 12-01-2022)
 1. Number of ways problem returns //done
 2. Odd subset //done
 3. The peak point //done
-4. Betty Buys A Present
+4. Betty Buys A Present //done
 5. Take out maximum //done
 6. Such Pair Returns //done
 7. Difference of K //done
+
+https://oj.masaischool.com/contest/2704/problem/1-2 (INTERVIEW PREP)
+
+https://oj.masaischool.com/contest/2824/problems (ASSORTED QUESTIONS 13-01-2022)
+1. Rotate Elements // done
+2. Equilibrium Element // done
+3. Element in the middle
+4. Who is going Forward?. // done
+5. Compete with Neighbour Returns
+6. Reduce String // done
+7. Next Greater Element // done
