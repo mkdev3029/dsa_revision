@@ -117,7 +117,7 @@ https://oj.masaischool.com/contest/2704/problem/1-2 (INTERVIEW PREP)
 https://oj.masaischool.com/contest/2824/problems (ASSORTED QUESTIONS 13-01-2022)
 1. Rotate Elements // done
 2. Equilibrium Element // done
-3. Element in the middle
+3. Element in the middle // done
 4. Who is going Forward?. // done
 5. Compete with Neighbour Returns
 6. Reduce String // done

@@ -1,0 +1,272 @@
+What is Babel? (https://medium.com/swlh/the-role-of-babel-in-react-dbcf78c69125#:~:text=Babel%E2%80%99s%20use%20is%20not%20only%20rooted%20in%20React.,code%20is%20compatible%20with%20older%20versions%20of%20JavaScript).
+
+Babel is a JavaScript transpiler, meaning it converts a newer version of ECMAScript, such as ES9, to a standard version (ES5).
+
+What is Webpack?
+
+At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes our application, it internally builds a dependency graph from one or more entry points and then combines every module in our project needs into one or more bundles, which are static assets to serve your content from.
+
+What is setState?
+
+setState(updater, [callback]) setState() enqueues changes to the component state and tells React that this component and its children need to be re-rendered with the updated state. This is the primary method you use to update the user interface in response to event handlers and server responses.
+
+What is Virtual DOM?
+
+The Virtual DOM is a light-weight abstraction of the DOM. You can think of it as a copy of the DOM, that can be updated without affecting the actual DOM. It has all the same properties as the real DOM object, but doesn't have the ability to write to the screen like the real DOM.
+
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
+
+What are React Portals?
+
+What is context API?
+
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+What are Life cycle methods in React?
+
+Component’s lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React’s case). Here’s a quick example
+
+Creation of the component (componentDidMount)
+Render of the component (render)
+(Optional) Update of the component (componentDidUpdate)
+Death of the component (componentWillUnmount)
+
+A component can be in different states of its “life”, and in React we can use those states to handle certain tasks.
+
+How can you memoize components in React?
+
+Why use virtaul DOM
+
+DOM manipulation is the heart of the modern, interactive web. Unfortunately, it is also a lot slower than most JavaScript operations.
+
+This slowness is made worse by the fact that most JavaScript frameworks update the DOM much more than 
+they have to.
+
+As an example, let’s say that you have a list that contains ten items. You check off the first item. Most JavaScript frameworks would rebuild the entire list. That’s ten times more work than necessary! Only one item changed, but the remaining nine get rebuilt exactly how they were before.
+
+Rebuilding a list is no big deal to a web browser, but modern websites can use huge amounts of DOM manipulation. Inefficient updating has become a serious problem.
+
+To address this problem, the people at React popularized something called the virtual DOM.
+
+The Virtual DOM (https://www.codecademy.com/article/react-virtual-dom)
+In React, for every DOM object, there is a corresponding “virtual DOM object.” A virtual DOM object is a representation of a DOM object, like a lightweight copy.
+
+A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing’s power to directly change what’s on the screen.
+
+Manipulating the DOM is slow. Manipulating the virtual DOM is much faster, because nothing gets drawn onscreen. Think of manipulating the virtual DOM as editing a blueprint, as opposed to moving rooms in an actual house.
+
+
+Difference between Virtual DOM and Real DOM (https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+
+Here’s what happens when we try to update the DOM in React:
+
+1. The entire virtual DOM gets updated.
+2. The virtual DOM gets compared to what it looked like before you updated it. React figures out which objects have changed.
+3. The changed objects, and the changed objects only, get updated on the real DOM.
+4. Changes on the real DOM cause the screen to change.
+
+
+Virutal DOM
+1. Changes can be made easily
+2. Minimal memory wastage
+3. JSX element is updated if the element exists
+4. Cannot update HTML directly
+5. Faster updates
+
+Real DOM
+1. Changes can be expensive
+2. High demand for memory and more wastage
+3. Creates a new DOM every time an element gets updated
+4. Able to directly manipulate HTML
+5. Slow updates
+
+
+What is a React?
+
+React is a widely used Javascript library that was launched in 2011. It was created by devleopers at Facebook, and it is primarily used for frontend developement
+
+React uses the component-based approach, which ensures to help us build components that posses high resusability.
+
+React is well know for developing and designing complex mobile use interfaces and web applications.
+
+What is the meaning of virtual DOM?. (https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+
+A virtual DOM is a somple Javascript object that is a light weight copy of the corresponding real DOM.
+
+It can be considered as a node tree that consists of element,their attributes, and other properties.
+
+Using the render function in React, it creates a node tree and updates it based on the changes that occure in the data model.
+
+These changes are usually triggered by users or the actions caused by the system.
+
+What are some of the important features of React?.
+
+React makes use of single-direction data flow model.
+
+It deals with complete server-side data processing and handling.
+
+React uses virtual DOM that has many advantages of its own.
+
+What is the meaning of JSX?.
+
+JSX stands of Javascript XML. It is a file that is used in React to bring out the essence of Javascript to React and use it for its advantages.
+
+It even includes bringing out HTML and the easy syntax of Javscript. This ensures that the resulting HTML file will have high readablitiy, thereby realtively increasing the performance of the application.
+
+Can browsers read a JSX file?.
+
+No, browsers cannot read JSX files directly.
+
+It can only read the objects provided by Javascript.
+
+Now, to make a browser read a JSX file it has to be transformed to a Javascript object using JSX transformers, and only then it can be fed into the browser for further use in the pipeline.
+
+What is React widely used today?.
+
+1. Testing becomes very easy.
+2. React can integrate with Angular and other frameworks easily.
+3. The high readablitiy index ensures easy understanding.
+4. React can be used for both client-side and server-side requirements.
+5. It boosts application performance and overall efficiency. 
+
+Are there any disadvantages to using React?.
+
+Writing code is complicated as it uses JSX and inline template formatting.
+
+Begineers might find it tough to cope with its syntaxes and methods.
+
+The library contains a high repository of information, which might be overwhelming.
+
+React is a simple library and not a complete framework hence calls for dependencies.
+
+What is the meaning of the component-based architecure of React?.
+
+In React, components are foundations used to build user interface for applications.
+
+With the component-based system in place, all of the individual entities become completely reusable and independent of each other.
+
+This means that rendering the application is easy and not depenent on the other components of the UI.
+
+How does rendering work in React?.
+
+Rendering is an important aspect of React as every single component must be rendered. This is doen using the render() function.
+
+Once the function is called, it returns an element that represents a DOM component.
+
+It is also possible to render more than one HTML element at a time by enclosing the HTML tags and passing it through the render function.
+
+What are the states in React?.
+
+States form to be one of the vital aspects to React. It is conisdered as a source of data or objects that  control aspects such as component behaviour and rendering.
+
+In React, states are used to easily create dynamic and interactive components.
+
+What are props in React?
+
+Props are the shorthand name given to properties in React.
+
+Props are read-only components that are immutatble in nature.
+
+In an application, props follow a hierarchy that is passed down from parents to child components.
+
+However, the revrese is not supported. This done to ensure that there is only a single directional flow in data at all times.
+
+What is a higher-order component in React?.
+
+A Higher Order Component is just a React Component that wraps another one.
+
+It is a techinque in React for applying concepts that involve the component resuability logic.
+
+They are not a native part of the React API and allow users to easuly reuse the code and bootstrap abstraction.
+
+HOCs are also used to allow simple sharing of behaviors across all of the components in React, adding more advances to the efficiency and funcitoning of the application.
+
+What is the meaning of create-react-app in React?.
+
+It is a CLI that is used in the creation of React applications, which have no build configuration.
+
+All tools are pre-configured when using the CLI, and this allows users to focus on the code more than ond dependencies to develop the application.
+
+What are some of the advantages of using create-react-app in React?.
+
+Support for JSX , ES6, and flow statements
+Already built and ready auto-prefixed CSS
+Fast interactive testing components
+Live development servers that help in debugging
+Scripts to handle JS, CSS and other files.
+
+What is the meaning of Redux?.
+
+In short, Redux is a way to manage the “state” or we can say it is a cache or storage that can be accessed by all components with a structured way. It has to be accessed through a “Reducer” and “Actions”
+
+Redux is used to store the state of the application in a single entity. This simple entity is usually a Javascript object. Changing states can be done by pushing out actions from the application and writing corresponding objects for them that are used to modify the states.
+
+What is the difference between props and states?.
+
+Props
+
+props use to pass data in the child component
+props change a value outside a component(child component)
+state from one component can be passed to another component via its props, much like a function could call another function and give it arguments.
+
+State
+
+state use inside a component
+state change a value inside a component
+
+What are the three phases of a component life cycle in React?. (https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/)
+
+Initialization
+This is the phase in which the component is going to start its journey by setting up the state (see below) and the props.
+
+Mounting
+
+The name is self-explanatory. Mounting is the phase in which our React component mounts on the DOM (i.e., is created and inserted into the DOM).
+
+This phase comes onto the scene after the initialization phase is completed. In this phase, our component renders the first time.
+
+Updating
+This is where component’s state changes and hence, re-rendering takes place.
+
+In this phase, the data of the component (state & props) updates in response to user events like clicking, typing and so on. This results in the re-rendering of the component. 
+
+Unmounting.
+The final phase involves the destruction of the component and its eventual removal from the DOM.
+
+What are events in React?.
+
+Whenever there are actions performed in React, such as hovering of the mouse or pressing a key on the keyboard, these actions trigger events. 
+
+Events then perform set activities as a response to these triggers.
+
+Handling an event in React is very similar to that in the DOM architecure.
+
+How is routing in React different from conventional routing?.
+
+Difference between the conventional routing and the routing in React can be show using the following aspects:
+
+Pages: Each view is considered as a new file in conventional routing while it is conisdered as a single HTML entity in React.
+
+Navigation: In conventional routing, users have to move across web pages for viewing. In React, the views are not refereshed as objects are re-issued to create new views.
+
+Differetiate between Flux and Redux in React?.
+
+Flux
+Components connected to flux in React
+Has a dispatcher
+Single store
+Mutable state
+Contains state and logic
+
+Redux
+Container components directly connect
+No dispatcher
+Multiple stores
+immutatble state
+State and logic are separate.
+
+What is the meaning of synthetic events in Reacts?.
+
+Synthetic events in React are objects that act as cross-browser wrappers, allowing for the use of native events.
+
+This is done to ensure that a variety of browser can run the API and that the event contains all properties.

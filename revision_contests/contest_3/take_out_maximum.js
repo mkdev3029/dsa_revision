@@ -6,6 +6,7 @@ function runProgram(input) {
   var i = 0;
   var j = k;
   var sum = 0;
+  
   for (let i = 0; i < k; i++) {
     sum += arr[i];
   }
