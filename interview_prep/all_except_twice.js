@@ -1,3 +1,5 @@
+// GO THROUGH BITWISE AND BIT MANIPULATION
+
 function runProgram(input) {
   input = input.trim().split("\n");
   var cases = +input[0];
@@ -5,35 +7,15 @@ function runProgram(input) {
   for (let k = 0; k < cases; k++) {
     var len = +input[line++];
     var arr = input[line++].trim().split(" ").map(Number);
-
-    arr.sort((a, b) => {
-      return a - b;
-    });
-
-    var query = +input[line++];
-    var even = [];
-    var odd = [];
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] % 2 === 0) even.push(arr[i]);
-      else odd.push(arr[i]);
+    let temp = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+      temp = temp ^ arr[i];
     }
-
-    // even.sort((a, b) => {
-    //   return a - b;
-    // });
-    // odd.sort((a, b) => {
-    //   return a - b;
-    // });
-
-    if (query === 1) {
-      console.log(even.join(" ") + " " + odd.join(" "));
-    } else if (query === 2) {
-      console.log(odd.join(" ") + " " + even.join(" "));
-    }
+    console.log(temp);
   }
 }
 if (process.env.USER === "madandev") {
-  runProgram(`2\n6\n1 3 5 2 7 4\n1\n6\n1 3 5 2 7 4\n2`);
+  runProgram(`2\n1\n5\n5\n1 2 1 3 2`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

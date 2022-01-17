@@ -5,35 +5,32 @@ function runProgram(input) {
   for (let k = 0; k < cases; k++) {
     var len = +input[line++];
     var arr = input[line++].trim().split(" ").map(Number);
+    var prod = [];
+    var left = [];
+    var right = [];
+    left[0] = 1;
+    right[arr.length - 1] = 1;
 
-    arr.sort((a, b) => {
-      return a - b;
-    });
+    for (let i = 1; i < arr.length; i++) {
+      left[i] = arr[i - 1] * left[i - 1];
+    }
 
-    var query = +input[line++];
-    var even = [];
-    var odd = [];
+    for (let i = arr.length - 2; i >= 0; i--) {
+      right[i] = arr[i + 1] * right[i + 1];
+    }
+
+    console.log(left);
+    console.log(right);
+
     for (let i = 0; i < arr.length; i++) {
-      if (arr[i] % 2 === 0) even.push(arr[i]);
-      else odd.push(arr[i]);
+      prod[i] = left[i] * right[i];
     }
 
-    // even.sort((a, b) => {
-    //   return a - b;
-    // });
-    // odd.sort((a, b) => {
-    //   return a - b;
-    // });
-
-    if (query === 1) {
-      console.log(even.join(" ") + " " + odd.join(" "));
-    } else if (query === 2) {
-      console.log(odd.join(" ") + " " + even.join(" "));
-    }
+    console.log(prod.join(" "));
   }
 }
 if (process.env.USER === "madandev") {
-  runProgram(`2\n6\n1 3 5 2 7 4\n1\n6\n1 3 5 2 7 4\n2`);
+  runProgram(`2\n5\n1 2 3 4 5\n3\n3 2 7`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

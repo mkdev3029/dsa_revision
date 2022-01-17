@@ -5,35 +5,29 @@ function runProgram(input) {
   for (let k = 0; k < cases; k++) {
     var len = +input[line++];
     var arr = input[line++].trim().split(" ").map(Number);
-
-    arr.sort((a, b) => {
-      return a - b;
-    });
-
-    var query = +input[line++];
-    var even = [];
-    var odd = [];
+    var obj = {};
     for (let i = 0; i < arr.length; i++) {
-      if (arr[i] % 2 === 0) even.push(arr[i]);
-      else odd.push(arr[i]);
+      if (!obj[arr[i]]) {
+        obj[arr[i]] = 1;
+      } else {
+        obj[arr[i]] = obj[arr[i]] + 1;
+      }
     }
-
-    // even.sort((a, b) => {
-    //   return a - b;
-    // });
-    // odd.sort((a, b) => {
-    //   return a - b;
-    // });
-
-    if (query === 1) {
-      console.log(even.join(" ") + " " + odd.join(" "));
-    } else if (query === 2) {
-      console.log(odd.join(" ") + " " + even.join(" "));
+    var element = 0;
+    for (const key in obj) {
+      if (obj[key] > Math.floor(arr.length / 2)) {
+        element = key;
+      }
+    }
+    if (element) {
+      console.log(element);
+    } else {
+      console.log(-1);
     }
   }
 }
 if (process.env.USER === "madandev") {
-  runProgram(`2\n6\n1 3 5 2 7 4\n1\n6\n1 3 5 2 7 4\n2`);
+  runProgram(`2\n6\n1 1 1 1 2 3\n5\n1 1 2 2 3`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");

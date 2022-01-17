@@ -543,3 +543,7 @@
 // kitchen.print();
 
 // kitchen.print.apply(bedroom);
+
+// Print the number of triplets whose sum is zero. And the triplets should be unique
+
+// -1 0 1

@@ -122,3 +122,26 @@ https://oj.masaischool.com/contest/2824/problems (ASSORTED QUESTIONS 13-01-2022)
 5. Compete with Neighbour Returns
 6. Reduce String // done
 7. Next Greater Element // done
+
+COMPLETED - https://oj.masaischool.com/contest/2839/problems (ASSORTED QUESTIONS 14-01-2022)
+1. Search in sorted and rotate Arrays //done
+2. Minimum in sorted and rotated array //done
+3. Number of ways problem //done
+4. Take out maximum //done
+5. Rotate the array returns back //done
+6. Mr Robot - Elliot. //done
+
+https://oj.masaischool.com/contest/2847/problems (ASSORTED QUESTIONS 15-01-2021)
+1. Spiral Traversal
+2. Rotate by 180
+3. Diamond Traversal
+4. Pair less than K
+5. Again a classical problem
+6. Different Ways to Buy Candies 2
+
+https://oj.masaischool.com/contest/2856/problems (ASSORTED QUESTIONS 17-01-2021)
+1. Minimize the integer
+2. Birthday Shopping // done
+3. Buggy Update // done
+4. Total Matches // done
+5. An Anagaram Problem // done

@@ -1,8 +1,10 @@
 // Find the majority element i.e element's frequencey should greater than or equal to half of the array length
 
 // var arr = [3, 3, 4, 2, 4, 4, 2, 4, 4];
+
 var arr = [2, 8, 8];
 var max = 0;
+
 // 1st Approach Time O(n^2) | Space O(n^2)
 // for (let i = 0; i < arr.length; i++) {
 //   count = 0;

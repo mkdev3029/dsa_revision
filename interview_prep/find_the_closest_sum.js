@@ -13,17 +13,23 @@ function runProgram(input) {
             Math.abs(target - closestSum) >
             Math.abs(target - (arr[i] + arr[j] + arr[k]))
           ) {
+            console.log('closest',arr[i], arr[j], arr[k]);
             closestSum = arr[i] + arr[j] + arr[k];
           }
         }
       }
     }
-    console.log(closestSum);
+    if (closestSum === Number.MAX_VALUE) {
+      console.log(0);
+    } else {
+      console.log(closestSum);
+    }
   }
 }
 if (process.env.USER === "madandev") {
   // runProgram(`2\n4 1\n-1 2 1 -4\n3 1\n0 0 0`);
   runProgram(`1\n6 5\n-4 1 -5 3 2 -5`);
+  // runProgram(`1\n2 3\n-1 -3`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");
