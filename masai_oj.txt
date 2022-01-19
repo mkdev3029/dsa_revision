@@ -145,3 +145,15 @@ https://oj.masaischool.com/contest/2856/problems (ASSORTED QUESTIONS 17-01-2021)
 3. Buggy Update // done
 4. Total Matches // done
 5. An Anagaram Problem // done
+
+https://oj.masaischool.com/contest/2864/problems (ASSORTED QUESTIONS 18-01-2022)
+1. Search in sorted and rotated array
+3. Different ways to buy candies.
+5. Common Start (https://www.geeksforgeeks.org/longest-common-prefix-using-binary-search/?ref=lbp)
+
+https://oj.masaischool.com/contest/2876/problems (ASSORTED QUESTIONS 19-01-2022)
+1. All Twice Except One
+2. Alex and his OCD
+3. Nikhil and Search
+4. Nick and Hacks
+5. Detect Palindrom 2
