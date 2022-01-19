@@ -7,7 +7,10 @@ function runProgram(input) {
     var arr = input[line++].trim().split(" ").map(Number);
 
     let res = arr[0];
-    for (let i = 1; i < arr.length; i++) res = res ^ arr[i];
+    for (let i = 1; i < arr.length; i++) {
+      console.log("for loop", res ^ arr[i]);
+      res = res ^ arr[i];
+    }
 
     console.log(res);
   }

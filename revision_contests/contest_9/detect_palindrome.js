@@ -19,7 +19,8 @@ function runProgram(input) {
         oddCount++;
       }
     }
-    if (oddCount < 1) {
+    console.log(obj);
+    if (oddCount <= 1) {
       console.log("Possible!");
     } else {
       console.log("Not Possible!");
@@ -27,11 +28,13 @@ function runProgram(input) {
   }
 }
 if (process.env.USER === "madandev") {
-  runProgram(`2
-6
-aabbcc
-5
-aabcd`);
+  //   runProgram(`2
+  // 6
+  // aabbcc
+  // 5
+  // aabcd`);
+  // runProgram(`1\n7\ngiggbgb`);
+  runProgram(`1\n7\naac`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");
