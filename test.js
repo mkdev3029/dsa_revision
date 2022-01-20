@@ -547,3 +547,14 @@
 // Print the number of triplets whose sum is zero. And the triplets should be unique
 
 // -1 0 1
+
+function add(a, b) {
+  console.log("outside", arguments);
+  return function () {
+    // console.log(a);
+    console.log("inside add", arguments);
+  };
+}
+
+// add(2, 3)(4, 5);
+add(2, 3)

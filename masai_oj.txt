@@ -157,3 +157,11 @@ COMPLETED - https://oj.masaischool.com/contest/2876/problems (ASSORTED QUESTIONS
 3. Nikhil and Search //done
 4. Nick and Hacks //done
 5. Detect Palindrom 2 //done
+
+https://oj.masaischool.com/contest/2890/problems
+1. Strong String Queries
+2. Fibonaci-Recursion
+3. Fibonaci Returns Again
+4. Next Greater Element
+5. Minimum in sorted & rotated Array
+6. Rotate Elements

@@ -15,40 +15,68 @@
 </html>
 <script>
   const makeApiCall = () => {
-    console.log(arguments);
     console.log("api call in progess");
   };
 
   //-------------Debouncing Code-------------//
-  const debouncer = (func, delay) => {
-    // Should remember if the call is called
-    let debouncing;
+  // const debouncer = (func, delay) => {
+  //   // Should remember if the call is called
+  //   let debouncing;
+  //   return function () {
+  //     debouncing && clearTimeout(debouncing);
+  //     debouncing = setTimeout(() => {
+  //       func.apply(this, arguments);
+  //     }, delay);
+  //   };
+  // };
+
+  function debounce(callback, delay) {
+    let timeout;
     return function () {
-      debouncing && clearTimeout(debouncing);
-      debouncing = setTimeout(() => {
-        func.apply(this, arguments);
+      timeout && clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        callback();
       }, delay);
     };
-  };
+  }
+
   window.addEventListener("load", function () {
     var btn = document.getElementById("click");
-    btn.addEventListener("click", debouncer(makeApiCall, 1000));
+    // btn.addEventListener("click", debouncer(makeApiCall, 1000));
+    btn.addEventListener("click", debounce(makeApiCall, 1000));
   });
   //----------------------------------------//
 
   //-------------Throttling Code-------------//
-  function throttle(fn, wait) {
-    let lastCall = 0;
-    return function () {
-      if (Date.now() - lastCall > wait) {
-        lastCall = Date.now();
-        fn.apply(this, arguments);
-      }
-    };
-  }
+
+  // function throttle(fn, limit) {
+  //   let flag = true;
+  //   console.log("throttle", arguments);
+  //   return function () {
+  //     if (flag) {
+  //       // fn(args);
+  //       fn.apply(this, arguments);
+  //       flag = false;
+  //       setTimeout(() => {
+  //         flag = true;
+  //       }, limit);
+  //     }
+  //   };
+  // }
+
+  // function throttle(fn, wait) {
+  //   let lastCall = 0;
+  //   return function () {
+  //     if (Date.now() - lastCall > wait) {
+  //       lastCall = Date.now();
+  //       fn.apply(this, arguments);
+  //     }
+  //   };
+  // }
+
   //----------------------------------------//
-  window.addEventListener("load", function () {
-    var btn = document.getElementById("click");
-    btn.addEventListener("click", throttle(makeApiCall, 1000));
-  });
+  // window.addEventListener("load", function () {
+  //   var btn = document.getElementById("click");
+  //   btn.addEventListener("click", throttle(makeApiCall, 5000));
+  // });
 </script>
