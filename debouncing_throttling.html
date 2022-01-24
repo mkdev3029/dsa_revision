@@ -79,4 +79,17 @@
   //   var btn = document.getElementById("click");
   //   btn.addEventListener("click", throttle(makeApiCall, 5000));
   // });
+
+  function throttle(fn, interval) {
+    var flag = true;
+    return function () {
+      if (flag) {
+        fn();
+        flag = false;
+        setTimeout(() => {
+          flag = true;
+        }, interval);
+      }
+    };
+  }
 </script>

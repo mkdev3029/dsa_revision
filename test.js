@@ -548,13 +548,190 @@
 
 // -1 0 1
 
-function add(a, b) {
-  console.log("outside", arguments);
-  return function () {
-    // console.log(a);
-    console.log("inside add", arguments);
-  };
-}
+// function add(a, b) {
+//   console.log("outside", arguments);
+//   return function () {
+//     // console.log(a);
+//     console.log("inside add", arguments);
+//   };
+// }
 
 // add(2, 3)(4, 5);
-add(2, 3)
+// add(2, 3)
+
+// var str = "string";
+
+// str = 1;
+
+// var arr = [1, 2, 3, 4];
+// var arr1 = arr;
+// console.log(arr1 == arr); // true
+
+// var arr1 = [1, 2, 3, 4];
+
+// console.log(arr1 == arr); // false
+
+// Primitive datatypes AND Non-Primitive datatypes
+// Hoisting
+// Closures
+// What is Virtual DOM
+// What is BABEL
+// Reconcillation
+// Mapping an array and sorting
+// Gave him a code and ask him about how it is hoisting
+// Merge two sorted arrays
+// Redux flow
+// Context API
+// CSS Flex
+// If they give three btns how will you flex it?. And where will you add the flex?.
+
+// InputArr = [1, ‘a’, ‘b’, 5, 6], Implement InputArr.square() So that it return OutputArr = [1, ‘a’, ‘b’, 25, 36]
+
+// var inputArr = [1, "a", "b", 5, 6];
+
+// Array.prototype.mySquare = function (cb) {
+//   var res = [];
+//   for (let i = 0; i < this.length; i++) {
+//     if (typeof this[i] !== "string") {
+//       res.push(cb(this[i]));
+//     } else {
+//       res.push(this[i]);
+//     }
+//   }
+//   return res;
+// };
+
+// var OutputArr = inputArr.mySquare((item) => {
+//   return item * item;
+// });
+
+// console.log("output", OutputArr);
+
+// var dp = [];
+
+// console.log(sum(1, 2));
+
+// MERGE TWO SORTED ARRAYS
+
+// var answer = Array(a.length + b.length).fill(0);
+
+// var i = 0,
+//   j = 0,
+//   k = 0;
+
+// while (i < a.length && j < b.length)
+//   answer[k++] = a[i] < b[j] ? a[i++] : b[j++];
+
+// while (i < a.length) answer[k++] = a[i++];
+
+// while (j < b.length) answer[k++] = b[j++];
+
+// console.log(answer);
+
+// var obj = {
+//   a: {
+//     d: function (a, b, c) {
+//       return a + b + c;
+//     },
+//   },
+//   b: function (a, b, c) {
+//     return a + b - c;
+//   },
+//   c: function (a, b, c) {
+//     return a - b - c;
+//   },
+// };
+// compute(a, b, c);
+
+// var obj = {
+//   Hello: function () {
+//     return "hello world" + this.name;
+//   },
+//   name: "hello",
+// };
+
+// var obj1 = {
+//   Helloworld: obj.Hello,
+//   name: "bye",
+// };
+// console.log(obj1.Helloworld()); // what is the output?
+// // bye
+
+// let arr = [1, 2, 3, 4, 5];
+// // Output; // [1,2,3,4,5] => [3,4,5,6,7] => [4,8,10,12,14]
+
+// Array.prototype.add = function (x) {
+//   var result = [];
+//   console.log(x);
+//   for (let i = 0; i < this.length; i++) {
+//     result.push(this[i] + x);
+//   }
+//   return result;
+// };
+
+// Array.prototype.multiply = function (x) {
+//   var result = [];
+//   for (let i = 0; i < this.length; i++) {
+//     result.push(this[i] * x);
+//   }
+//   return result;
+// };
+
+// let out = arr.add(2).multiply(2);
+
+// Array.prototype.myFind = function (cb) {
+//   var res = 0;
+//   for (let i = 0; i < this.length; i++) {
+//     if (cb(this[i])) {
+//       res = this[i];
+//       break;
+//     }
+//   }
+//   return res;
+// };
+
+// var arr = [5, 12, 8, 130, 44];
+
+// console.log(
+//   arr.myFind((item) => {
+//     return item > 128;
+//   })
+// );
+
+// console.log(out);
+
+// function multiply(num) {
+//   function multiplyer(n) {
+//     if (n !== undefined) {
+//       num *= n;
+//       return multiplyer;
+//     } else {
+//       return num;
+//     }
+//   }
+//   return multiplyer;
+// }
+
+// console.log(multiply(2)(4)(6)());
+
+function runProgram(input) {}
+if (process.env.USER === "madandev") {
+  runProgram(``);
+} else {
+  process.stdin.resume();
+  process.stdin.setEncoding("ascii");
+  let read = "";
+  process.stdin.on("data", function (input) {
+    read += input;
+  });
+  process.stdin.on("end", function () {
+    read = read.replace(/\n$/, "");
+    read = read.replace(/\n$/, "");
+    runProgram(read);
+  });
+  process.on("SIGINT", function () {
+    read = read.replace(/\n$/, "");
+    runProgram(read);
+    process.exit(0);
+  });
+}

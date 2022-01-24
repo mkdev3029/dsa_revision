@@ -1,0 +1,83 @@
+Hoisting
+Javascript is executed in two phases
+1. Memory Component (variable Component) Memory Creation Phase
+2. Code Component (Thread of execution) Code Execution phase
+
+Javascript scans the file and gets the delcarations of functions, variables and class and stores/ moves up to the top of their scope, prior to the Code execution phase.
+
+Data types
+
+Primitive Values 
+Boolean, Number, String, BigInt, Symbol, Undefined, Null type
+Immutable means that which cannot be changed or modified.
+When we create a string, the value is created from scratch as opposed to being replaced
+
+And Objects
+
+Object
+Sorting
+Write a program to merge to sorted arrays
+
+Splice
+Remove or add an element to the array based on the given range,the splice method changes the original array
+
+Slice
+Does not change the original array
+
+
+Pure components
+Pure Components in React are the components which do not re-renders when the value of state and props has been updated with the same values.
+
+
+Force render a component
+
+
+Redux flow
+Action --> dispatcher --> store -> updates the state -> view is re-rendered
+
+Use effect
+
+
+Display block and inline
+
+
+[1:02 PM] Variable hoisting?
+Four es6 features
+Prototype chain?
+
+Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.
+
+
+Closures
+Given InputArr = [1, ‘a’, ‘b’, 5, 6], Implement InputArr.square() So that it return OutputArr = [1, ‘a’, ‘b’, 25, 36]
+const sum = (a, b) => a + b
+sum(1, 2) // + operation
+sum(2, 3) // + operation
+sum(1, 2) // from cache
+   - Implement a caching fn
+   - Can change implementation of sum fn
+   - Do Not polluting the global space
+Implement a stopwatch in React JS
+[1:03 PM] Prototype chain
+Array flatten,
+var merged = [].concat.apply([], arrays);
+
+Closure, 
+A function that is bundled with it's lexical scope
+
+Currying, if there is n number of input how you will handle that.
+
+
+// Primitive datatypes AND NON-Primitive datatypes
+// Hoisting
+// Closures
+// What is Virtual DOM
+// What is BABEL
+// Reconcillation
+// Mapping an array and sorting
+// Gave him a code and ask him about how it is hoisting
+// Merge two sorted arrays
+// Redux flow
+// Context API
+// CSS Flex
+// If they give three btns how will you flex it?. And where will you add the flex?.

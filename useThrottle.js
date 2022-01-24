@@ -9,7 +9,7 @@ const useThrottle = (func, delay) => {
     }
 
     const newTimeout = setTimeout(() => {
-      func(...arguments);
+      func(...args);
       if (newTimeout === timeout) {
         saveTimeout(null);
       }

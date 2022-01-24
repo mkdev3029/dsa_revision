@@ -24,5 +24,22 @@
 
     // bark.animal = "dog";
     // console.log(bark.animal);
+
+    Array.prototype.madanMap = function (callback) {
+      let newArray = [];
+      let x = this.length;
+      for (let i = 0; i < x; i++) {
+        let counter = callback(this[i]);
+        newArray.push(counter);
+      }
+      return newArray;
+    };
+
+    var arr = [1, 2, 3];
+    var result = arr.madanMap((item) => {
+      return item + 2;
+    });
+
+    console.log(result);
   </script>
 </html>

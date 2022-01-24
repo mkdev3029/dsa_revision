@@ -32,6 +32,7 @@ function runProgram(input) {
     }
   }
 }
+
 if (process.env.USER === "madandev") {
   runProgram(`2\n6\n1 3 5 2 7 4\n1\n6\n1 3 5 2 7 4\n2`);
 } else {

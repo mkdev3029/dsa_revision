@@ -80,6 +80,10 @@ Real DOM
 4. Able to directly manipulate HTML
 5. Slow updates
 
+What are pure components?
+
+Pure Components in React are the components which do not re-renders when the value of state and props has been updated with the same values
+
 
 What is a React?
 
