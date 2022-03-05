@@ -41,3 +41,19 @@ if (process.env.USER === "madandev") {
     process.exit(0);
   });
 }
+
+// 4 6 7 9 10 -1 0 1 2 3
+
+if (arr[low] <= arr[mid]) {
+  if (target >= arr[low] && target <= arr[mid]) {
+    high = mid - 1;
+  } else {
+    low = mid + 1;
+  }
+} else if (arr[high] >= arr[mid]) {
+  if (target >= arr[mid] && target <= arr[high]) {
+    low = mid + 1;
+  } else {
+    high = mid - 1;
+  }
+}

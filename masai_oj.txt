@@ -165,3 +165,11 @@ https://oj.masaischool.com/contest/2890/problems
 4. Next Greater Element
 5. Minimum in sorted & rotated Array
 6. Rotate Elements
+
+https://oj.masaischool.com/contest/2894/problems  (ASSORTED QUESTIONS)
+
+https://oj.masaischool.com/contest/2907 (ASSORTED QUESTIONS 24-01-2022)
+
+https://oj.masaischool.com/contest/2911/problems (ASSORTED QUESTIONS 25-01-2022 )
+
+https://oj.masaischool.com/contest/2927/problems (ASSORTED QUESTIONS 27-01-2022)

@@ -1,6 +1,6 @@
 function subsequence(arr, temp, k) {
   if (temp.length === 0) {
-    console.log(" ")
+    console.log(" ");
   }
   for (let i = k; i < arr.length; i++) {
     temp.push(arr[i]);

@@ -11,7 +11,7 @@ Level 2
 7. Find the first repeating element in an array of integers // done
 8. Find the first non-repeating element in a given array of integers // skipped
 9. Subarrays with equal 1s and 0s // skipped
-10.Rearrange the array in alternating positive and negative items 
+10.Rearrange the array in alternating positive and negative items
 
 STRINGS
 https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/

@@ -15,6 +15,7 @@ function runProgram(input) {
   }
   flag ? console.log("Yes") : console.log("No");
 }
+
 if (process.env.USER === "madandev") {
   runProgram(`6\nnrupul`);
 } else {

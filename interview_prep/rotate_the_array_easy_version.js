@@ -12,6 +12,7 @@ function runProgram(input) {
     console.log(res.join(" "));
   }
 }
+
 if (process.env.USER === "madandev") {
   runProgram(`3\n3 1\n1 2 3\n2 2\n1 2\n2 3\n1 2`);
 } else {

@@ -1,42 +1,47 @@
-const LinkList = class {
-  constructor(value) {
-    this.data = value;
+// HEAD | NODE | TAIL
+
+class LinkedList {
+  constructor(data) {
+    this.data = data;
     this.next = null;
   }
-};
+}
 
-// Traverse and print all data from the LinkList
+// CREATE NEW LINK LIST
+
+function createList(head, data) {
+  if (head == null) {
+    head = new LinkedList(data);
+    return head;
+  } else {
+    var current = head;
+    while (current.next !== null) {
+      current = current.next;
+    }
+
+    current.next = new LinkedList(data);
+    return head;
+  }
+}
+
+var head = null;
+
+for (let i = 1; i <= 50; i++) {
+  head = createList(head, i);
+}
+
+console.log(head);
+
+// PRINT LINKED LIST
+
 function printList(head) {
   var res = "";
   var current = head;
-  while (current.next !== null) {
+  while (current !== null) {
     res += current.data + " ";
     current = current.next;
   }
   return res;
 }
 
-var head = new LinkList(1);
-head.next = new LinkList(2);
-head.next.next = new LinkList(3);
-head.next.next.next = new LinkList(4);
-// console.log(head);
-
 console.log(printList(head));
-
-// var head = {
-//   data: 1,
-//   next: null,
-// };
-
-// head.next = {
-//   data: 2,
-//   next: null,
-// };
-
-// head.next.next = {
-//   data: 3,
-//   next: null,
-// };
-
-// console.log(head);

@@ -714,24 +714,119 @@
 
 // console.log(multiply(2)(4)(6)());
 
-function runProgram(input) {}
-if (process.env.USER === "madandev") {
-  runProgram(``);
-} else {
-  process.stdin.resume();
-  process.stdin.setEncoding("ascii");
-  let read = "";
-  process.stdin.on("data", function (input) {
-    read += input;
-  });
-  process.stdin.on("end", function () {
-    read = read.replace(/\n$/, "");
-    read = read.replace(/\n$/, "");
-    runProgram(read);
-  });
-  process.on("SIGINT", function () {
-    read = read.replace(/\n$/, "");
-    runProgram(read);
-    process.exit(0);
-  });
-}
+// Print sum of the smallest subarray length that is >= target
+
+// var arr = [4, 2, 2, 7, 8, 1, 2, 8, 10];
+
+// var target = 8;
+// var sum = 0;
+// var start = 0;
+// var end = 0;
+// var windowSize = 0;
+
+// while (end < arr.length) {
+//   sum += arr[end];
+//   while (sum >= target) {
+//     sum -= arr[start];
+//     windowSize = start - end === 0 ? 1 : start - end;
+//     console.log(`${start} | ${end}`);
+//     start++;
+//   }
+//   end++;
+// }
+
+// console.log(windowSize);
+
+// mountain
+
+// var arr = [2, 3, 2, 1];
+
+// var count = 0;
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//   if (arr[i] < arr[i + 1] || arr[i] >= arr[i + 1]) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
+
+// intersection
+
+// var arr1 = [3, 2];
+// var arr2 = [7, 5];
+
+// var x = [];
+// var y = 0;
+
+// for (let i = 0; i < arr1.length; i++) {
+//   y = Math.abs(arr1[i] - arr2[i]);
+//   if (arr1[i] <= y && arr2[i] >= y) {
+//     x.push(arr1[i], y, arr2[i]);
+//   }
+// }
+
+// var obj = {};
+
+// for (let i = 0; i < x.length; i++) {
+//   if (obj[x[i]] == undefined) {
+//     obj[x[i]] = 1;
+//   } else {
+//     obj[x[i]]++;
+//   }
+// }
+
+// var ans = -1;
+
+// for (const key in obj) {
+//   if (obj[key] > 1) {
+//     ans = key;
+//     break;
+//   }
+// }
+
+// console.log(ans);
+
+// var arr = [1, 1, 0, 0, 1, 1, 1];
+
+// var oneCount = 0;
+// var zeroCount = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 1) {
+//     oneCount++;
+//   } else {
+//     zeroCount++;
+//   }
+// }
+
+// console.log(oneCount / 2 + zeroCount / 2);
+
+// var a = [[1, 2, 3, 4]];
+
+// var b = a;
+
+// var c = [...a];
+
+// var c = JSON.parse(JSON.stringify(a));
+
+// a[0][0] = 2;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// var arr = [2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+// var mappedArr = arr.map((element) => {
+//   return element * 2;
+// });
+
+// var filteredArr = arr.filter((element) => {
+//   return element % 2 !== 0;
+// });
+
+// console.log(arr);
+// console.log(mappedArr);
+// console.log(filteredArr);
+
